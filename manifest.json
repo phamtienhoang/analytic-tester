@@ -1,0 +1,17 @@
+{
+    "name": "Analytic Tester",
+    "description": "A Google Chrome extension that helps testing analytic event quickly",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "48": "/assets/icons/tester.png",
+        "128": "/assets/icons/tester.png"
+    },
+    "action": {
+        "default_popup": "settings.html",
+        "default_icon": {
+            "48": "/assets/icons/tester.png",
+            "128": "/assets/icons/tester.png"
+        }
+    }
+}
