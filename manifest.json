@@ -13,5 +13,13 @@
             "48": "/assets/icons/tester.png",
             "128": "/assets/icons/tester.png"
         }
+    },
+    "permissions": [
+        "notifications",
+        "contextMenus",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "/assets/js/background.js"
     }
 }

@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styling.css">
     <title>Analytic tester</title>
 </head>
 <body>
-    Hello world
+    <div id="settings-wrapper">
+        <div id="settings-header">
+            Specify testing parameters here:
+        </div>
+        <div id="settings-container">
+            <div id="settings-param-form">
+                <label for="eventName">Event Name:</label>
+                <textarea name="eventName" id="event-name" cols="30" rows="1"></textarea>
+            </div>
+            <div id="settings-confirmation">
+                <button id="confirm-settings">
+                    Confirm settings
+                </button>
+                <button id="reset-settings">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
